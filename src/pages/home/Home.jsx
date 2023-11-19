@@ -13,13 +13,15 @@ export default function Home() {
     const res = await fetch(url);
     const data = await res.json();
 
+    
     setTopMovies(data.results);
   };
-
+  
   useEffect(() => {
     const topRatedUrl = `${moviesURL}/top_rated?${apikey}&language=pt-BR`;
-
+    
     getTopRatedMovies(topRatedUrl);
+    console.log(topMovies);
   }, []);
 
   return (

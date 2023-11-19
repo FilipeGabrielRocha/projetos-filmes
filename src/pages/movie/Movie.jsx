@@ -19,8 +19,9 @@ export default function Movie(){
         const data = await res.json();
 
         console.log("data", data);
-    
+        
         setMovie(data);
+        console.log("movie", movie.genres);
     }
 
     const formatCurrency = (number) => {
@@ -50,7 +51,7 @@ export default function Movie(){
                         <p>{formatCurrency(movie.revenue)}</p>
                     </div>
                     <div className="info">
-                        <p>Duração {movie.runtime} Min</p>
+                        <p> {movie.runtime} Min</p>
                     </div>
                     <div className="info description">
                         <h3>Sinopse:</h3>
