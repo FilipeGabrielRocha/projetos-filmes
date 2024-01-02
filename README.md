@@ -12,7 +12,7 @@ Obtenha informações detalhadas sobre cada filme, desde a sinopse emocionante a
 ![image 2](https://github.com/FilipeGabrielRocha/projetos-filmes/assets/94459039/2b7354b1-3bda-4662-b2b8-47343e558d8f)
 
 ### Busca Poderosa
-Utilize nossa busca eficiente para encontrar filmes específicos, diretores talentosos ou gêneros cinematográficos que estejam em sintonia com seus interesses.
+Utilize nossa busca eficiente para encontrar filmes específicos que estejam em sintonia com seus interesses.
 ![image 3](https://github.com/FilipeGabrielRocha/projetos-filmes/assets/94459039/cd365509-b232-43ac-97c3-050fd6891779)
 
 ### Classificações dos filmes
